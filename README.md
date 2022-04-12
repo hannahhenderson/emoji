@@ -1,32 +1,16 @@
-Source: https://github.com/stahnma/slack_emoji_grabber
-# Grab you slack team's emojis
+# CircleCI emoji circa March 2020
+This repo contains:
+1. Stahnma's emoji grabber.
+2. The CircleCI emoji circa March 2020.
+3. A not-very-up-to-date shortlist of emoji that Hannah uses. She would modify the selection slightly, but is feeling lazy and is only updating this readme as she has made this repo public for the first time ever.
 
-Do you ever wish you could grab the emojis from one slack team and keep them? Maybe you'd put them in another team? Well now you can. This simple little golang CLI will grab all the emojis and put them in `./emojis`. It also won't download an emoji if you already have it in your `./emojis` dir. It also skips aliases because seriously, you have them already.
+Please use responsibly, especially for spreading joy and vibes.
 
-# Setup
+# Stahnma's Slack emoji grabber
+Go check out his docs over here: https://github.com/stahnma/slack_emoji_grabber
 
-You need one module that isn't in the stdlib.
+# Bulk uploading emoji
+This tool works, you can install it and then uninstall it as soon as you're done:
+https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej?hl=en
 
-`go get -u github.com/nlopes/slack`
-
-
-You can also simply run `make setup`
-
-# Build
-
-`go build slack_emoji_grabber.go`
-
-
-or run
-
-`make`
-
-# Configure
-To run the `slack_emoji_grabber` you need your `SLACK_TOKEN` environment variable set. If you don't have it set, it won't work.
-
-# Run
-`./slack_emoji_grabber`
-
-
-# License
-See License file.
+For awhile, you needed to have at least one custom emoji in your Slack in order to get the drag-and-drop functionality of "Neutral Face Emoji Tools" to register.
